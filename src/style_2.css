@@ -1,0 +1,44 @@
+@theme {
+  --color-color-1: #9333ea;
+  --color-color-2: #c084fc;
+  --color-color-3: #ec4899;
+  --color-color-4: #38bdf8;
+  --color-color-5: #a855f7;
+  --color-color-6: #f472b6;
+
+  --color-stroke-1: #1e3a8a;
+
+  --color-n-1: #ffffff;
+  --color-n-2: #e2e8f0;
+  --color-n-3: #cbd5e1;
+  --color-n-4: #94a3b8;
+  --color-n-5: #1e293b;
+  --color-n-6: #0f172a;
+  --color-n-7: #0b1329;
+  --color-n-8: #030712;
+  --color-n-9: #334155;
+  --color-n-10: #475569;
+  --color-n-11: #172554;
+  --color-n-12: #1e3a8a;
+  --color-n-13: #64748b;
+
+  --font-sora: 'Sora', sans-serif;
+  --font-code: 'Source Code Pro', monospace;
+  --font-grotesk: 'Space Grotesk', sans-serif;
+  --color-scheme: dark;
+
+  --letter-spacing-tagline: 0.15em;
+}
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+@layer base {
+  body {
+    background-color: var(--color-n-8);
+    color: var(--color-n-2);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
