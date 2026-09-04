@@ -149,7 +149,7 @@ export default {
     <!-- About Section -->
     <section id="about" class="max-w-7xl mx-auto px-6">
       <div
-        class="bg-n-6 border border-stroke-1 rounded-2xl p-8 md:p-12 grid grid-cols-1 md:grid-cols-12 gap-8 items-center relative overflow-hidden"
+        class="bg-n-6 border border-stroke-1 rounded-2xl p-8 md:p-12 grid grid-cols-1 md:grid-cols-12 gap-8 items-center relative overflow-hidden hover:border-color-1 transition-all"
       >
         <div
           class="absolute -bottom-10 -left-10 w-48 h-48 bg-color-5/5 rounded-full blur-3xl pointer-events-none"
@@ -159,11 +159,11 @@ export default {
         <div class="md:col-span-4 flex justify-center">
           <div class="relative group">
             <div
-              class="absolute -inset-1 bg-gradient-to-r from-color-1 to-color-5 rounded-xl blur opacity-30 group-hover:opacity-75 transition duration-500"
+              class="absolute -inset-1 bg-gradient-to-r from-color-1 to-color-5 rounded-full blur opacity-30 group-hover:opacity-75 transition duration-500"
             ></div>
 
             <div
-              class="relative w-48 h-48 md:w-56 md:h-56 rounded-xl overflow-hidden border border-stroke-1 bg-n-8"
+              class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border border-stroke-1 bg-n-8 group-hover:border-color-1 transition-all"
             >
               <img
                 src="../assets/port.jpg"
@@ -400,7 +400,7 @@ export default {
     <!-- Contact Section -->
     <section id="contact" class="max-w-3xl mx-auto px-6">
       <div
-        class="bg-n-6 border border-stroke-1 rounded-2xl p-8 md:p-12 space-y-6 relative overflow-hidden"
+        class="bg-n-6 border border-stroke-1 rounded-2xl p-8 md:p-12 space-y-6 relative overflow-hidden hover:border-color-1 transition-all"
       >
         <div
           class="absolute top-0 right-0 w-64 h-64 bg-color-1/5 rounded-full blur-3xl pointer-events-none"
