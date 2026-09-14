@@ -3,16 +3,11 @@
     class="min-h-screen bg-n-8 text-n-2 flex flex-col font-sans selection:bg-color-1 selection:text-n-1"
   >
     <!-- Navigation Bar -->
-    <header
-      class="sticky top-0 z-50 bg-transparent border-b border-stroke-1 relative group animate-fade-in-down"
-    >
+    <header class="sticky top-0 z-50 bg-transparent border-b border-stroke-1">
       <nav
         class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between"
       >
-        <router-link
-          to="/"
-          class="flex items-center space-x-2 group animate-fade-in-down transition-transform duration-300 ease-in-out hover:scale-105"
-        >
+        <router-link to="/" class="flex items-center space-x-2">
           <img src="/logo.jfif" alt="Logo" class="w-12 h-12 object-contain" />
         </router-link>
 
