@@ -157,7 +157,7 @@ export default {
 
         <!-- Image Column -->
         <div class="md:col-span-4 flex justify-center">
-          <div class="relative group">
+          <div class="relative group animate-fade-in-down">
             <div
               class="absolute -inset-1 bg-gradient-to-r from-color-1 to-color-5 rounded-full blur opacity-30 group-hover:opacity-75 transition duration-500"
             ></div>
@@ -165,11 +165,15 @@ export default {
             <div
               class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border border-stroke-1 bg-n-8 group-hover:border-color-1 transition-all"
             >
-              <img
-                src="../assets/port.jpg"
-                alt="Profile photo"
-                class="w-full h-full object-cover contrast-125 group-hover:grayscale-0 transition-all duration-500"
-              />
+              <div
+                class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border border-stroke-1 bg-n-8 group-hover:border-color-1 animate-fade-in-down transition-transform duration-300 ease-in-out hover:scale-105"
+              >
+                <img
+                  src="../components/assets/port.jpg"
+                  alt="Profile photo"
+                  class="w-full h-full object-cover contrast-125 group-hover:grayscale-0 transition-all duration-500"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -333,17 +337,20 @@ export default {
             <div class="flex justify-between items-center">
               <span
                 class="text-xs font-mono px-3 py-1 bg-color-1/10 text-color-1 rounded-full"
-                >Secure Infrastructure</span
+                >Firewall / Segmentation</span
               >
-              <span class="text-xs text-n-4 font-mono">Docker / WireGuard</span>
+              <span class="text-xs text-n-4 font-mono"
+                >pfSense / Suricata / Wireguard</span
+              >
             </div>
             <h3 class="text-xl font-bold text-n-1">
-              Encrypted Remote Access & Home Lab
+              Home Lab: Firewall, IDS & VPN
             </h3>
             <p class="text-n-3 text-sm">
-              Configured a secure self-hosted environment featuring WireGuard
-              VPN tunnels, isolated VLAN routing, and containerized management
-              stacks.
+              Architected a pfSense security lab on Hyper-V featuring an
+              isolated guest network segment, Suricata IDS telemetry for network
+              intrusion monitoring, and a WireGuard VPN server enabling secure
+              remote tunnel access.
             </p>
           </div>
           <div
@@ -353,7 +360,7 @@ export default {
               >Status: Deployed & Active</span
             >
             <a
-              href="#"
+              href="https://vramirez2022.github.io/home-security-lab/"
               class="text-sm text-color-1 font-semibold hover:underline"
               >Explore Architecture &rarr;</a
             >
@@ -368,29 +375,30 @@ export default {
             <div class="flex justify-between items-center">
               <span
                 class="text-xs font-mono px-3 py-1 bg-color-5/10 text-color-5 rounded-full"
-                >Full-Stack App</span
+                >SIEM / Threat Detection</span
               >
-              <span class="text-xs text-n-4 font-mono">FastAPI / Vue.js</span>
+              <span class="text-xs text-n-4 font-mono">Docker / Wazuh</span>
             </div>
             <h3 class="text-xl font-bold text-n-1">
-              Task & Workflow Planner Platform
+              Enterprise SIEM & HIDS Platform
             </h3>
             <p class="text-n-3 text-sm">
-              Engineered a customized web application equipped with a
-              high-performance Python backend API, structured database queries,
-              and dynamic front-end views.
+              Deployed a single-node Wazuh SIEM stack via Docker, configuring
+              internal API bridging, security indices, and real-time endpoint
+              telemetry monitoring.
             </p>
           </div>
           <div
             class="px-6 py-4 bg-n-8/50 border-t border-stroke-1 flex justify-between items-center"
           >
             <span class="text-xs text-n-4 font-mono"
-              >Status: Production Ready</span
+              >Status: Deployed & Active</span
             >
             <a
-              href="#"
+              href="https://wazuh.veronica-ramirez.com:8080"
+              target="_blank"
               class="text-sm text-color-5 font-semibold hover:underline"
-              >View Source &rarr;</a
+              >Explore Architecture &rarr;</a
             >
           </div>
         </div>
