@@ -210,15 +210,13 @@ export default {
             approach to every challenge. My goal is to contribute to secure
             infrastructures, resilient processes, and teams that value clarity,
             collaboration, and continuous improvement.
-            <p></p>
-
             <div
               class="pt-2 flex flex-wrap gap-4 font-mono text-xs text-color-1"
             >
               <span>[+] Threat Analysis</span>
               <span>[+] Vulnerability Assessment</span>
               <span>[+] Network Security</span>
-              <span>[+] Infrascture Hardening</span>
+              <span>[+] Infrastructure Hardening</span>
             </div>
           </div>
         </div>
