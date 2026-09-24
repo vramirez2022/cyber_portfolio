@@ -316,17 +316,17 @@ export default {
 
     <!-- Projects Section -->
     <section id="projects" class="max-w-7xl mx-auto px-6">
-  <div class="text-center space-y-4 mb-12">
-    <h2 class="text-3xl font-bold tracking-tight text-n-1">
-      Featured Projects
-    </h2>
-    <p class="text-n-3 max-w-xl mx-auto">
-      Security Engineering, Cloud Defense & Infrastructure Showcase
-    </p>
-  </div>
+      <div class="text-center space-y-4 mb-12">
+        <h2 class="text-3xl font-bold tracking-tight text-n-1">
+          Featured Projects
+        </h2>
+        <p class="text-n-3 max-w-xl mx-auto">
+          Security Engineering, Cloud Defense & Infrastructure Showcase
+        </p>
+      </div>
 
-  <!-- Project 1 -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Project 1 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Project 2 -->
         <div
           class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between"
@@ -337,15 +337,18 @@ export default {
                 class="text-xs font-mono px-3 py-1 bg-color-1/10 text-color-1 rounded-full"
                 >HTTP Security Headers</span
               >
-              <span class="text-xs text-n-4 font-mono"
-                >Edge Defense & WAF</span
-              >
+              <span class="text-xs text-n-4 font-mono">Edge Defense & WAF</span>
             </div>
             <h3 class="text-xl font-bold text-n-1">
               Production Web Application Hardening & Edge Security
             </h3>
             <p class="text-n-3 text-sm">
-              Documents the production security hardening for my live web application. By configuring defense-in-depth controls at both the HTTP application layer and network edge, the project mitigates critical web vulnerabilities—including XSS, Clickjacking, MIME-sniffing, and SSL/TLS downgrade attacks—achieving an A+ rating on security audits.
+              Documents the production security hardening for my live web
+              application. By configuring defense-in-depth controls at both the
+              HTTP application layer and network edge, the project mitigates
+              critical web vulnerabilities—including XSS, Clickjacking,
+              MIME-sniffing, and SSL/TLS downgrade attacks—achieving an A+
+              rating on security audits.
             </p>
           </div>
           <div
@@ -361,7 +364,7 @@ export default {
             >
           </div>
         </div>
-
+      </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Project 2 -->
