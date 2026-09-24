@@ -328,7 +328,7 @@ export default {
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Project 1 -->
         <div
-          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full"
+          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full min-h-[420px]"
         >
           <div class="p-6 space-y-4">
             <div class="flex justify-between items-center">
@@ -370,7 +370,7 @@ export default {
 
         <!-- Project 2 -->
         <div
-          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full"
+          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full min-h-[420px]"
         >
           <div class="p-6 space-y-4">
             <div class="flex justify-between items-center">
@@ -412,7 +412,7 @@ export default {
 
         <!-- Project 3 -->
         <div
-          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full"
+          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full min-h-[420px]"
         >
           <div class="p-6 space-y-4">
             <div class="flex justify-between items-center">
