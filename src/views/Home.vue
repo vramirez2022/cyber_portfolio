@@ -316,18 +316,67 @@ export default {
 
     <!-- Projects Section -->
     <section id="projects" class="max-w-7xl mx-auto px-6">
-      <div class="text-center space-y-4 mb-12">
-        <h2 class="text-3xl font-bold tracking-tight text-n-1">
-          Featured Projects
-        </h2>
-        <p class="text-n-3 max-w-xl mx-auto">
-          Practical applications built with security, robustness, and scale in
-          mind.
+  <div class="text-center space-y-4 mb-12">
+    <h2 class="text-3xl font-bold tracking-tight text-n-1">
+      Featured Projects
+    </h2>
+    <p class="text-n-3 max-w-xl mx-auto">
+      Security Engineering, Cloud Defense & Infrastructure Showcase
+    </p>
+  </div>
+
+  <!-- Project 1 -->
+  <div class="grid grid-cols-1 gap-8 max-w-3xl mx-auto">
+    <div class="bg-n-7 rounded-xl border border-stroke-1 overflow-hidden shadow-lg hover:border-color-1 transition-colors">
+      
+     
+      <div class="p-6 space-y-4">
+        
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2.5 py-1 text-xs font-mono rounded-full bg-n-6 text-color-1 border border-stroke-1">
+            HTTP Security Headers
+          </span>
+          <span class="px-2.5 py-1 text-xs font-mono rounded-full bg-n-6 text-color-1 border border-stroke-1">
+            Edge Defense & WAF
+          </span>
+          <span class="px-2.5 py-1 text-xs font-mono rounded-full bg-n-6 text-color-1 border border-stroke-1">
+            Zero Trust
+          </span>
+        </div>
+
+        <!-- Project Title -->
+        <h3 class="text-xl font-bold text-n-1">
+          Production Web Application Hardening & Edge Security
+        </h3>
+
+        <!-- Description -->
+        <p class="text-n-3 text-sm leading-relaxed">
+          Documents the production security hardening for my live cybersecurity portfolio application. By configuring defense-in-depth controls at both the HTTP application layer and network edge, the project mitigates critical web vulnerabilities—including XSS, Clickjacking, MIME-sniffing, and SSL/TLS downgrade attacks—achieving an A+ rating on security audits.
         </p>
       </div>
 
+      <!-- Card Footer -->
+      <div class="px-6 py-4 bg-n-8/50 border-t border-stroke-1 flex justify-between items-center">
+        <span class="text-xs text-n-4 font-mono flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          Status: Deployed & Active
+        </span>
+        <a
+          href="https://vramirez2022.github.io/Web_Hardening/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm text-color-1 font-semibold hover:underline flex items-center gap-1"
+        >
+          Explore Architecture &rarr;
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Project 1 -->
+        <!-- Project 2 -->
         <div
           class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between"
         >
@@ -365,7 +414,7 @@ export default {
           </div>
         </div>
 
-        <!-- Project 2 -->
+        <!-- Project 3 -->
         <div
           class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between"
         >
