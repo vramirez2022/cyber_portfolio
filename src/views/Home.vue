@@ -325,18 +325,18 @@ export default {
         </p>
       </div>
 
-      <!-- Project 1 -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Project 2 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
         <div
-          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between"
+          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full"
         >
           <div class="p-6 space-y-4">
             <div class="flex justify-between items-center">
               <span
                 class="text-xs font-mono px-3 py-1 bg-color-1/10 text-color-1 rounded-full"
-                >HTTP Security Headers</span
               >
+                HTTP Security Headers
+              </span>
               <span class="text-xs text-n-4 font-mono">Edge Defense & WAF</span>
             </div>
             <h3 class="text-xl font-bold text-n-1">
@@ -359,24 +359,26 @@ export default {
             >
             <a
               href="https://vramirez2022.github.io/Web_Hardening/"
+              target="_blank"
+              rel="noopener noreferrer"
               class="text-sm text-color-1 font-semibold hover:underline"
-              >Explore Architecture &rarr;</a
             >
+              Explore Architecture &rarr;
+            </a>
           </div>
         </div>
-      </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Project 2 -->
         <div
-          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between"
+          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full"
         >
           <div class="p-6 space-y-4">
             <div class="flex justify-between items-center">
               <span
                 class="text-xs font-mono px-3 py-1 bg-color-1/10 text-color-1 rounded-full"
-                >Firewall / Segmentation</span
               >
+                Firewall / Segmentation
+              </span>
               <span class="text-xs text-n-4 font-mono"
                 >pfSense / Suricata / Wireguard</span
               >
@@ -399,22 +401,26 @@ export default {
             >
             <a
               href="https://vramirez2022.github.io/home-security-lab/"
+              target="_blank"
+              rel="noopener noreferrer"
               class="text-sm text-color-1 font-semibold hover:underline"
-              >Explore Architecture &rarr;</a
             >
+              Explore Architecture &rarr;
+            </a>
           </div>
         </div>
 
         <!-- Project 3 -->
         <div
-          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between"
+          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full"
         >
           <div class="p-6 space-y-4">
             <div class="flex justify-between items-center">
               <span
                 class="text-xs font-mono px-3 py-1 bg-color-5/10 text-color-5 rounded-full"
-                >SIEM / Threat Detection</span
               >
+                SIEM / Threat Detection
+              </span>
               <span class="text-xs text-n-4 font-mono">Docker / Wazuh</span>
             </div>
             <h3 class="text-xl font-bold text-n-1">
@@ -435,9 +441,11 @@ export default {
             <a
               href="https://wazuh.veronica-ramirez.com:8080"
               target="_blank"
+              rel="noopener noreferrer"
               class="text-sm text-color-5 font-semibold hover:underline"
-              >Explore Architecture &rarr;</a
             >
+              Explore Architecture &rarr;
+            </a>
           </div>
         </div>
       </div>
