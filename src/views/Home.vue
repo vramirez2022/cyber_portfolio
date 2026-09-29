@@ -367,7 +367,8 @@ export default {
             </a>
           </div>
         </div>
-        <!-- project 2 -->
+
+        <!-- Project 2 -->
         <div
           class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full min-h-[420px]"
         >
@@ -378,18 +379,16 @@ export default {
               >
                 WAF & Security
               </span>
-              <span class="text-xs text-n-4 font-mono"
-                >Safeline WAF Deployment</span
-              >
+              <span class="text-xs text-n-4 font-mono">Docker / Linux</span>
             </div>
             <h3 class="text-xl font-bold text-n-1">
               Home Lab: Web Application Firewall
             </h3>
             <p class="text-n-3 text-sm">
-              Configured and deployed a self-hosted Safeline Web Application
-              Firewall (WAF) to secure local applications, inspect incoming
-              HTTP/HTTPS traffic, and block malicious web-based attacks and
-              injection attempts in real time.
+              Configured and deployed a containerized Safeline Web Application
+              Firewall (WAF) on a Linux host using Docker. Designed to secure
+              local applications, inspect incoming HTTP/HTTPS traffic, and block
+              malicious web-based attacks and injection attempts in real time.
             </p>
           </div>
           <div
@@ -421,19 +420,21 @@ export default {
                 Firewall / Segmentation
               </span>
               <span class="text-xs text-n-4 font-mono"
-                >pfSense / Suricata / Wireguard</span
-              >
+                >pfSense / Suricata / Wireguard
+              </span>
             </div>
             <h3 class="text-xl font-bold text-n-1">
               Home Lab: Firewall, IDS & VPN
             </h3>
+
             <p class="text-n-3 text-sm">
-              Architected a pfSense security lab on Hyper-V featuring an
-              isolated guest network segment, Suricata IDS telemetry for network
-              intrusion monitoring, and a WireGuard VPN server enabling secure
-              remote tunnel access.
+              Architected a pfSense security lab hosted within a Linux VM
+              environmet, featuring an isolated guest network segment, Suricata
+              IDS telemetry for network intrusion monitoring, and a WireGuard
+              VPN server enabling secure remote tunnel access.
             </p>
           </div>
+
           <div
             class="px-6 py-4 bg-n-8/50 border-t border-stroke-1 flex justify-between items-center"
           >
@@ -462,15 +463,18 @@ export default {
               >
                 SIEM / Threat Detection
               </span>
-              <span class="text-xs text-n-4 font-mono">Docker / Wazuh</span>
+              <span class="text-xs text-n-4 font-mono"
+                >Docker / Wazuh / Linux
+              </span>
             </div>
             <h3 class="text-xl font-bold text-n-1">
               Enterprise SIEM & HIDS Platform
             </h3>
             <p class="text-n-3 text-sm">
-              Deployed a single-node Wazuh SIEM stack via Docker, configuring
-              internal API bridging, security indices, and real-time endpoint
-              telemetry monitoring.
+              Deployed a containerized Wazuh SIEM stack on Linux using Docker.
+              Configured internal API bridging, custom security rules, and
+              real-time endpoint telemetry monitoring for active threat
+              detection
             </p>
           </div>
           <div
@@ -491,7 +495,6 @@ export default {
         </div>
       </div>
     </section>
-
     <!-- Contact Section -->
     <section id="contact" class="max-w-3xl mx-auto px-6">
       <div
