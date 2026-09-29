@@ -367,8 +367,49 @@ export default {
             </a>
           </div>
         </div>
+        <!-- project 2 -->
+        <div
+          class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full min-h-[420px]"
+        >
+          <div class="p-6 space-y-4">
+            <div class="flex justify-between items-center">
+              <span
+                class="text-xs font-mono px-3 py-1 bg-color-1/10 text-color-1 rounded-full"
+              >
+                WAF & Security
+              </span>
+              <span class="text-xs text-n-4 font-mono"
+                >Safeline WAF Deployment</span
+              >
+            </div>
+            <h3 class="text-xl font-bold text-n-1">
+              Home Lab: Web Application Firewall
+            </h3>
+            <p class="text-n-3 text-sm">
+              Configured and deployed a self-hosted Safeline Web Application
+              Firewall (WAF) to secure local applications, inspect incoming
+              HTTP/HTTPS traffic, and block malicious web-based attacks and
+              injection attempts in real time.
+            </p>
+          </div>
+          <div
+            class="px-6 py-4 bg-n-8/50 border-t border-stroke-1 flex justify-between items-center"
+          >
+            <span class="text-xs text-n-4 font-mono"
+              >Status: Deployed & Active</span
+            >
+            <a
+              href="https://vramirez2022.github.io/Safeline_WAF/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-color-1 font-semibold hover:underline"
+            >
+              Explore Architecture &rarr;
+            </a>
+          </div>
+        </div>
 
-        <!-- Project 2 -->
+        <!-- Project 3 -->
         <div
           class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full min-h-[420px]"
         >
@@ -410,7 +451,7 @@ export default {
           </div>
         </div>
 
-        <!-- Project 3 -->
+        <!-- Project 4 -->
         <div
           class="bg-n-6 border border-stroke-1 rounded-xl overflow-hidden hover:border-color-1 transition-all flex flex-col justify-between h-full min-h-[420px]"
         >
